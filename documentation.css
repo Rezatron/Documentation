@@ -1,0 +1,100 @@
+@media only screen and (max-width: 900px) {
+  body {
+    color: linear-gradient(white, grey)
+  }
+}
+
+ul{
+  list-style: none;
+height: auto;
+  
+}
+
+body { padding-left: 220px; }
+
+.nav-link{
+  width: 190;
+font-size: 18px;
+ position: fixed;
+ left: 0;
+ background-color: ;
+ index: -1;
+color: red;
+
+ 
+}
+
+li {
+  
+  font-size: 15;
+  top-border: 100;
+  padding-left: 10;
+  height: ;
+  box-sizing: content-box;
+  }
+ 
+
+
+
+a {
+  
+  display: block;
+  color: grey;
+  text-decoration: none;
+  margin: ;
+  height: 200;
+   border: 1px solid white;
+
+}
+.nav-link:hover{
+  background-color: skyblue;
+}
+.nav-link:focus{
+  background-color: white
+}
+
+}
+.main-section{
+  right: 200;
+  float: right;
+  position: relative;
+  
+}
+
+
+
+
+
+.nav-link {
+  
+  background-color:;
+  border: none;
+  opacity: ;
+  color: black;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
+
+}
+
+.nav-link:after {
+  content: "";
+  background: black;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.nav-link:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
